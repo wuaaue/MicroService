@@ -1,54 +1,52 @@
 Table : city
 columns: 5
-Column Name of 1 column: ID
-Column Type Name of 1 column: INT
-Column Name of 2 column: Name
-Column Type Name of 2 column: CHAR
-Column Name of 3 column: CountryCode
-Column Type Name of 3 column: CHAR
-Column Name of 4 column: District
-Column Type Name of 4 column: CHAR
-Column Name of 5 column: Population
-Column Type Name of 5 column: INT
+Column Name of 1 column: id
+Column Type Name of 1 column: int4
+Column Name of 2 column: name
+Column Type Name of 2 column: text
+Column Name of 3 column: country_code
+Column Type Name of 3 column: text
+Column Name of 4 column: district
+Column Type Name of 4 column: text
+Column Name of 5 column: population
+Column Type Name of 5 column: int4
 Table : country
 columns: 15
-Column Name of 1 column: Code
-Column Type Name of 1 column: CHAR
-Column Name of 2 column: Name
-Column Type Name of 2 column: CHAR
-Column Name of 3 column: Continent
-Column Type Name of 3 column: CHAR
-Column Name of 4 column: Region
-Column Type Name of 4 column: CHAR
-Column Name of 5 column: SurfaceArea
-Column Type Name of 5 column: DECIMAL
-Column Name of 6 column: IndepYear
-Column Type Name of 6 column: SMALLINT
-Column Name of 7 column: Population
-Column Type Name of 7 column: INT
-Column Name of 8 column: LifeExpectancy
-Column Type Name of 8 column: DECIMAL
-Column Name of 9 column: GNP
-Column Type Name of 9 column: DECIMAL
-Column Name of 10 column: GNPOld
-Column Type Name of 10 column: DECIMAL
-Column Name of 11 column: LocalName
-Column Type Name of 11 column: CHAR
-Column Name of 12 column: GovernmentForm
-Column Type Name of 12 column: CHAR
-Column Name of 13 column: HeadOfState
-Column Type Name of 13 column: CHAR
-Column Name of 14 column: Capital
-Column Type Name of 14 column: INT
-Column Name of 15 column: Code2
-Column Type Name of 15 column: CHAR
-Table : countrylanguage
-columns: 4
-Column Name of 1 column: CountryCode
-Column Type Name of 1 column: CHAR
-Column Name of 2 column: Language
-Column Type Name of 2 column: CHAR
-Column Name of 3 column: IsOfficial
-Column Type Name of 3 column: CHAR
-Column Name of 4 column: Percentage
-Column Type Name of 4 column: DECIMAL
+Column Name of 1 column: code
+Column Type Name of 1 column: text
+Column Name of 2 column: name
+Column Type Name of 2 column: text
+Column Name of 3 column: continent
+Column Type Name of 3 column: text
+Column Name of 4 column: region
+Column Type Name of 4 column: text
+Column Name of 5 column: surface_area
+Column Type Name of 5 column: float8
+Column Name of 6 column: indep_year
+Column Type Name of 6 column: int2
+Column Name of 7 column: population
+Column Type Name of 7 column: int4
+Column Name of 8 column: life_expectancy
+Column Type Name of 8 column: float8
+Column Name of 9 column: gnp
+Column Type Name of 9 column: numeric
+Column Name of 10 column: gnp_old
+Column Type Name of 10 column: numeric
+Column Name of 11 column: local_name
+Column Type Name of 11 column: text
+Column Name of 12 column: government_form
+Column Type Name of 12 column: text
+Column Name of 13 column: head_of_state
+Column Type Name of 13 column: text
+Column Name of 14 column: capital
+Column Type Name of 14 column: int4
+Column Name of 15 column: code_2
+Column Type Name of 15 column: text
+Table : test_5
+columns: 0
+Table : test_1
+columns: 0
+Table : test_2
+columns: 0
+Table : test_3
+columns: 0
